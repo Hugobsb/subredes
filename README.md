@@ -1,3 +1,2 @@
-# Geo Location Terminal
-
-Geo location terminal made in Node.js
+# subredes
+Calculador de Subredes para facilitar o trabalho da Etec
