@@ -47,11 +47,15 @@ prompt.get(['escolha', 'quantidade de ip'], (err, result) => {
             }
 
             if (choice < 1 || choice > 4) console.log('Opção não encontrada');
+
+            console.log('\n\n');
+            console.log('\x1b[31m'+'... and here you go'+'\x1b[0m\n');
         }
     }
 });
 
 function onErr(err) {
+    console.log('\n\n');
     if (err == 'Error: canceled') console.log('\x1b[31m'+'... and here you go'+'\x1b[0m\n');
     else console.log(err);
     return 1;
